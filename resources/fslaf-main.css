@@ -1,0 +1,5 @@
+/*----------------------------Injected Header fix---------------------------------*/
+#wrapper.inj-wrapper {
+    min-height: auto !important;
+}
+
