@@ -16,7 +16,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"FSLAFHooks": "includes/FSLAFHooks.php"
+		"ZionLookAndFeelHooks": "includes/ZionLookAndFeelHooks.php"
 	},
 	"ResourceModules": {
 		"ext.zionlookandfeel.injected": {
@@ -63,7 +63,7 @@
 		"remoteExtPath": "FsLookAndFeel"
 	},
 	"Hooks": {
-		"BeforePageDisplay": "FSLAFHooks::addModules"
+		"BeforePageDisplay": "ZionLookAndFeelHooks::addModules"
 	},
 	"manifest_version": 1
 }
