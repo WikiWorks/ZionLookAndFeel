@@ -19,7 +19,7 @@
 		"FSLAFHooks": "includes/FSLAFHooks.php"
 	},
 	"ResourceModules": {
-		"ext.fslookandfeel.injected": {
+		"ext.zionlookandfeel.injected": {
 			"scripts": [
 				"resources/fslaf-injectedHeader.js"
 			],
@@ -28,7 +28,7 @@
 				"mobile"
 			]
 		},
-		"ext.fslookandfeel.scripts": {
+		"ext.zionlookandfeel.scripts": {
 			"scripts": [
 				"resources/fslaf-collapseAndToggle.js",
 				"resources/fslaf-geoHandling.js",
@@ -38,14 +38,14 @@
 				"resources/fslaf-showMapMenus.js"
 			],
 			"dependencies": [
-				"ext.fslookandfeel.injected"
+				"ext.zionlookandfeel.injected"
 			],
 			"targets": [
 				"desktop",
 				"mobile"
 			]
 		},
-		"ext.fslookandfeel.styles": {
+		"ext.zionlookandfeel.styles": {
 			"styles": [
 				"resources/fslaf-FsHeader.css",
 				"resources/fslaf-main.css",
