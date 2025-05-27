@@ -1,6 +1,6 @@
 {
 	"name": "ZionLookAndFeel",
-	"version": "0.2",
+	"version": "0.3",
 	"author": [
 		"Yaron Koren",
 		"thomas-topway-it"
@@ -62,7 +62,7 @@
 				"resources/fslaf-showMapMenus.js"
 			],
 			"styles": [
-				"resources/fslaf-mainPage.css",
+				"resources/fslaf-mainPage.css"
 			],
 			"dependencies": [
 			],
