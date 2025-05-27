@@ -1,0 +1,232 @@
+/*--------------------------main page coding-----------------*/
+/* ------------------new CSS -------------------*/
+
+/* ------------------containers / elements -------------------*/
+#map {
+    position: relative; 
+    width: 100%; 
+    padding-top: 40px;
+    margin-left: 0;
+}
+
+.sectionTitle {
+	text-align:center; 
+	margin-bottom:5px; 
+	font-size:1.2rem; 
+}
+
+.subTitle {
+	text-align:center; 
+	font-size:1rem; 
+}
+
+#statsline {
+	text-align:center; 
+	margin-top:5px;
+	margin-bottom:16px;
+}
+
+.menuTitle {
+    color:black;
+    justify-content:space-between;
+    font-size:1rem;
+    position:sticky;
+    top:0;
+    background-color:#D9D9D4;
+    text-align:center;
+}
+
+.search-mobile {
+  display:none !important;
+  } 
+.map-mobile {
+  display:none;
+  }
+
+/* use id="mobileonly" in order to remove items that 
+   should not be visible in mobile view.  
+   Note: id="nomobile" is defined in 
+   Mobile.css - use this eliminate mobile items. */
+  .mobileonly {
+    display:none;
+  }
+
+.searchboxContainer {
+  display:flex; 
+  justify-content:center;
+  align-items: center; /* removed from mobile */
+  font-size:1rem;
+  margin-top:10px; /* removed from mobile */
+}
+
+.tips {
+  text-align:right; 
+  font-size:1rem;
+}
+
+.buttonContainer {
+	
+}
+
+/* any element with id ending in '_button' */
+[id$="_button"] {
+    background-color:#e1ebee96;
+    position:absolute;
+    border:1px solid black;
+    text-align:center;
+    font-size:1rem;
+    padding:5px;
+    cursor:pointer;
+    border-radius:5px;
+    box-shadow:2px 2px 2px #888888;
+    color:#004d99;
+}
+
+[id$="_button"]:hover {
+    background-color:white;
+    color:blue;
+}
+
+#all_countries_button:hover {
+    background-color:white;
+    color:blue;
+}
+
+/* special extra rules for all_countries button */
+#all_countries_button {
+    background-color:#0f5ba9;
+    font-size:1.2rem;
+    color:white;
+    width:220px;
+}
+
+/* button placement */
+#all_countries_button {top:22%; left:40%;}
+#africa_button {top:60%; left:49%;}
+#asia_button {top:40%; left:73%;}
+#europe_button {top:39%; left: 52%;}
+#middle_east_button {top:56%; left:57%;}
+#north_america_button {top:35%; left:22%;}
+#pacific_button {top:73%; left:85%;}/* Australia/Oceania button*/
+#south_america_button {top:70%; left:27%;}
+
+/* Callout is the 'Guided Research' element */
+.callout {
+	position:absolute;
+	top:15%; 
+	left:80%;
+    width:160px;
+    text-align:center;
+    font-size:1rem;
+    cursor:pointer;
+    border-radius:5px;
+    box-shadow:5px 5px 2px #888888;
+    color:#004d99;
+    background-color:white;
+    padding:5px;
+    border:1px solid gray;
+}
+
+.calloutHeading {
+	color:orange; 
+	font-size:1.3rem; 
+	font-family:museo;
+}
+
+.guided_research_link {
+  border:1px solid black;
+  text-align:center;
+  font-size:1rem;
+  cursor:pointer;
+  border-radius:5px;
+  box-shadow:2px 2px 2px #888888;
+  color:#004d99;
+  width:150px
+}
+
+/* ------------------menus -------------------*/
+#menu {
+    position:absolute;
+    top:125px;
+    left:0;
+    width:210px;
+    height:25vw;
+    overflow-y:scroll;
+    display:block;
+    color:#aba8a0;
+    background-color:white;
+    border:1px solid black;
+    z-index: 10;
+}
+
+.exit {
+    color: red;
+    cursor: pointer;
+    float: right;
+}
+
+.exit:hover {
+    font-weight: bold;
+}
+
+/** This hack is to eliminate shifting due to :hover */
+span.exit::before {
+    display: block;
+    content: "foo";
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#menu > ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+#menu ul li:hover {
+    background-color:#ecebea;
+}
+
+/* There are two separate classes, but we don't differentiate their styles */
+.countrymenu, .statemenu {
+	padding:3px;
+	top:0; 
+	background-color:#D9D9D4; 
+	color:black
+}
+
+/* color menu spans to look like a link */
+.fakelink {
+	color:#004d99;
+}
+
+.menulink {
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left:-1.2rem;
+}
+
+.menulink::before {
+	content: "> ";
+}
+
+.menulink:hover {
+	background-color: #ecebea;
+}
+
+
+
+/*--------------------------main page coding-----------------*/
+
+/* make sure missing pages remain colored correctly after visiting */
+a.new:visited, #p-personal a.new:visited {
+    color: #a55858 !important;
+}
+/* change border on input forms to be 1pm, instead of 2px, and grey instead of black */
+form input {
+   /* border: 1px solid !important;
+   */
+    border-color: darkgrey !important;
+}

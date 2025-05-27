@@ -56,6 +56,20 @@
 				"desktop",
 				"mobile"
 			]
+		},
+		"ext.zionlookandfeel.mainpage": {
+			"scripts": [
+				"resources/fslaf-showMapMenus.js"
+			],
+			"styles": [
+				"resources/fslaf-mainPage.css",
+			],
+			"dependencies": [
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {

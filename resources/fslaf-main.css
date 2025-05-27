@@ -1,5 +1,43 @@
-/*----------------------------Injected Header fix---------------------------------*/
-#wrapper.inj-wrapper {
-    min-height: auto !important;
+body {
+	margin: auto !important;
 }
 
+#wrapper.inj-wrapper {
+	min-height: auto !important;
+}
+
+.mw-page-container {
+	max-width: none !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+#global-footer {
+	margin-left: 0 !important;
+}
+
+footer {
+}
+
+.plainlinks {
+	margin-top: 80px;
+}
+
+body {
+	background-color: #fff !important;
+}
+
+.catlinks li {
+	background-color: #e1ebc5 !important;
+	padding: 5px 8px !important;
+}
+
+.mw-footer-container {
+	display: none !important;
+}
+
+#left-navigation,
+#right-navigation {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}

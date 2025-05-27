@@ -11,6 +11,12 @@ class ZionLookAndFeelHooks {
 		if ( $skin === 'vector-2022' ) {
 			$out->addModules( [ 'ext.zionlookandfeel.scripts' ] );
 			$out->addModuleStyles( [ 'ext.zionlookandfeel.styles' ] );
+
+			$mainPage = TitleClass::newMainPage();
+			if ( $mainPage->getPrefixedDBkey() === $skin->getTitle()->getPrefixedDBkey() ) {
+				$out->addModules( [ 'ext.zionlookandfeel.mainpage' ] );
+			}
+
 			return true;
 		}
 	}
