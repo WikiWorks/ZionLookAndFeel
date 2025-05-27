@@ -3,10 +3,16 @@
 
 /* ------------------containers / elements -------------------*/
 #map {
-    position: relative; 
-    width: 100%; 
+    position: relative;
+    width: 100%;
     padding-top: 40px;
     margin-left: 0;
+        max-width: 1600px;
+}
+
+#map img {
+  width: 100%;
+  height: auto;
 }
 
 .sectionTitle {
