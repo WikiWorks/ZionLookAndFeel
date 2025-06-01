@@ -440,3 +440,7 @@ a {
 	display: none !important;
 }
 
+#global-footer ul {
+ list-style: none !important;
+}
+
