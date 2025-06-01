@@ -186,7 +186,7 @@ span.exit::before {
 }
 
 #menu > ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
     margin-left: 20px;
 }
