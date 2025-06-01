@@ -1,7 +1,7 @@
 ( function() {
 	if (mw.config.get('wgUserName') === null) {
 		$('.vector-user-links').toggle( false );
-		$('.vector-menu-content').toggle( false );
+		$('.mw-article-toolbar-container').toggle( false );
 		$('#right-navigation').toggle( false );
 		$('.mw-editsection').toggle( false );
 	}
