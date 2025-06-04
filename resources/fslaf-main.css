@@ -127,6 +127,30 @@ div#mw-panel div.portal h3 {
     text-decoration: none !important;
 }
 
+/*green online button*/
+.green_online_button {
+    background-color: #BFD730;
+    border-radius: 10px;
+    color: white;
+    width: 210px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin: 5px;
+    padding: 5px;
+    display: block;
+}
+
+.green_online_button:hover, .green_online_button:visited {
+    text-decoration: none !important;
+    background-color: #cade54;
+}
+
+.green_online_button>a, .green_online_button>a.visited, .green_online_button>a.external:visited, .green_online_button>a:hover {
+    color: white !important;
+    text-decoration: none !important;
+}
+
 /*red online button*/
 .red_online_button {
     background-color: #d42111;
@@ -147,6 +171,77 @@ div#mw-panel div.portal h3 {
 }
 
 .red_online_button>a, .red_online_button>a.visited, .red_online_button>a.external:visited, .red_online_button>a:hover {
+    color: white !important;
+    text-decoration: none !important;
+}
+/*brown online button*/
+.brown_online_button {
+    background-color: #9c947a;
+    border-radius: 10px;
+    color: white;
+    width: 210px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin: 5px;
+    padding: 5px;
+    display: block;
+}
+
+.brown_online_button:hover, .brown_online_button:visited {
+    text-decoration: none !important;
+    background-color: #b3ad98;
+}
+
+.brown_online_button>a, .brown_online_button>a.visited, .brown_online_button>a.external:visited, .brown_online_button>a:hover {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+/*orange online button*/
+.orange_online_button {
+    background-color: #fcb34b;
+    border-radius: 10px;
+    color: white;
+    width: 210px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin: 5px;
+    padding: 5px;
+    display: block;
+}
+
+.orange_online_button:hover, .orange_online_button:visited {
+    text-decoration: none !important;
+    background-color: #fdbf68;
+}
+
+.orange_online_button>a, .orange_online_button>a.visited, .orange_online_button>a.external:visited, .orange_online_button>a:hover {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+/*gray online button*/
+.gray_online_button {
+    background-color: #bab7b1;
+    border-radius: 10px;
+    color: white;
+    width: 210px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin: 5px;
+    padding: 5px;
+    display: block;
+}
+
+.gray_online_button:hover, .gray_online_button:visited {
+    text-decoration: none !important;
+    background-color:  #cfcdc9;
+}
+
+.gray_online_button>a, .gray_online_button>a.visited, .gray_online_button>a.external:visited, .gray_online_button>a:hover {
     color: white !important;
     text-decoration: none !important;
 }
@@ -469,3 +564,46 @@ a {
  list-style: none !important;
 }
 
+/* https://beta.familysearch.org/en/wiki/Guided_Research_for_Online_Records */
+/* https://beta.familysearch.org/en/wiki/Main_Page-GR */
+#GRContainer {
+	background-image: url(/wiki/en/img_auth.php/9/95/World_map_purplish.png); 
+	/* Make the container (and background image) 100% of the viewport */
+	width: 100vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: center;
+}
+#GRContainerTest2 {
+	background-image: url(/wiki/en/img_auth.php/9/95/World_map_purplish.png);
+}
+/* the menu table on the Main_Page-GR */
+#GRMenu {
+	border:1px solid black; 
+	width:max-content;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffffd1; /* white with alpha transparency */
+}
+/* The callout for Main_Page-GR */
+.callout2 {
+    position: absolute;
+    top: 1%;
+    right: 80%;
+    width: 160px;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px #888888;
+    color: #004d99;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid gray
+}
+/* The div containing the logo on Main Page-GR */
+.GRLogo {
+	position: absolute;
+    left: 80%;
+    top: 1%;
+}
