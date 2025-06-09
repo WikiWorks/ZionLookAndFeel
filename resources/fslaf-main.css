@@ -25,11 +25,12 @@ footer {
 	margin-top: 80px;
 }
 
-
+/* Not sure where this came from, not needed
 .catlinks li {
 	background-color: #e1ebc5 !important;
 	padding: 5px 8px !important;
 }
+*/
 
 .mw-footer-container {
 	display: none !important;
