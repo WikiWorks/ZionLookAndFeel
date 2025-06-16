@@ -608,3 +608,44 @@ a {
     left: 80%;
     top: 1%;
 }
+
+
+/* temporary, remove when upgrading to a recent MW version */
+#firstHeading {
+	border-bottom: none;
+	line-height: 1.375;
+}
+
+.vector-page-titlebar {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.vector-page-titlebar > .cdx-button, .vector-page-titlebar > .mw-portlet-lang, mw-body-header {
+    flex-shrink: 0;
+}
+
+.vector-page-titlebar .firstHeading {
+    flex-grow: 1;
+    padding: 0;
+    border: 0;
+}
+
+.vector-page-titlebar::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: var(--border-color-base, #a2a9b1);
+}
+
+#google_translate_element a:hover {
+	text-decoration: none;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
