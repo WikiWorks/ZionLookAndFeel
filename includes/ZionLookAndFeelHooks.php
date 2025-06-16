@@ -17,6 +17,12 @@ class ZionLookAndFeelHooks {
 				$out->addModules( [ 'ext.zionlookandfeel.mainpage' ] );
 			}
 
+			global $wgGoogleTranslatorOriginal, $wgGoogleTranslatorLanguages;
+			$out->addJsConfigVars( [
+				'wgGoogleTranslatorOriginal' => $wgGoogleTranslatorOriginal,
+				'wgGoogleTranslatorLanguages' => $wgGoogleTranslatorLanguages
+			] );
+
 			return true;
 		}
 	}
