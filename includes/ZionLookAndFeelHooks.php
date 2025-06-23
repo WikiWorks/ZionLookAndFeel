@@ -22,8 +22,10 @@ class ZionLookAndFeelHooks {
 				'wgGoogleTranslatorOriginal' => $wgGoogleTranslatorOriginal,
 				'wgGoogleTranslatorLanguages' => $wgGoogleTranslatorLanguages
 			] );
+		}
 
-			return true;
+		if ( $skin->getSkinName() === 'minerva' ) {
+			$out->addModules( [ 'ext.zionlookandfeel.minerva' ] );
 		}
 	}
 
