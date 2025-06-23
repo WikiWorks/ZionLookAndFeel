@@ -24,6 +24,7 @@ class ZionLookAndFeelHooks {
 			] );
 		}
 
+		// extension MobileFrontend
 		if ( $skin->getSkinName() === 'minerva' ) {
 			$out->addModules( [ 'ext.zionlookandfeel.minerva' ] );
 		}
