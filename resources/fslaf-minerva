@@ -1,0 +1,3 @@
+.last-modified-bar__text.modified-enhancement {
+    color: #54595d;
+}
