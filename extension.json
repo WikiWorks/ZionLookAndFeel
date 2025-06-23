@@ -70,7 +70,20 @@
 				"desktop",
 				"mobile"
 			]
-		}
+		},
+		"ext.zionlookandfeel.minerva": {
+                        "scripts": [
+                        ],
+                        "styles": [
+                                "resources/fslaf-minerva.css"
+                        ],
+                        "dependencies": [
+                        ],
+                        "targets": [
+                                "desktop",
+                                "mobile"
+                        ]
+                }
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
