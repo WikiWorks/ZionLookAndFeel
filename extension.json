@@ -72,18 +72,19 @@
 			]
 		},
 		"ext.zionlookandfeel.minerva": {
-                        "scripts": [
-                        ],
-                        "styles": [
-                                "resources/fslaf-minerva.css"
-                        ],
-                        "dependencies": [
-                        ],
-                        "targets": [
-                                "desktop",
-                                "mobile"
-                        ]
-                }
+			"scripts": [
+				"resources/fslaf-minerva.js"
+			],
+			"styles": [
+				"resources/fslaf-minerva.css"
+			],
+			"dependencies": [
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
