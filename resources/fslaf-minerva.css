@@ -1,3 +1,20 @@
 .last-modified-bar__text.modified-enhancement {
     color: #54595d;
 }
+
+.page-heading {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+#firstHeading {
+    flex-grow: 1;
+    padding: 0;
+}
+
+#p-lang-btn {
+     float: right;
+}
+

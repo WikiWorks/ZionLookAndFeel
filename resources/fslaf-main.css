@@ -18,9 +18,6 @@ body {
 	margin-left: 0 !important;
 }
 
-footer {
-}
-
 .plainlinks {
 	margin-top: 80px;
 }
@@ -95,6 +92,9 @@ div#mw-panel div.portal h3 {
     text-decoration: none !important;
 }
 
+caption {
+    caption-side: top !important;
+}
 
 /**** community button *******************************************************/
 /* eg. https://beta.familysearch.org/en/wiki/United_States_Genealogy */
@@ -649,3 +649,4 @@ a {
 	text-decoration: none;
 }
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
