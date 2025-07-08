@@ -8,6 +8,11 @@
 
 	if ( mw.config.get('wgIsMainPage') ) {
 		// $('#p-search').html('').toggle(true);
+		$('#p-search').toggle( false );
+		$('<div>', {
+			css: { flexGrow: 1 }
+		}).insertAfter('#p-search');
+		
 		$('#catlinks').toggle( false );
 		$('#footer-info').toggle( false );
 	}
