@@ -7,7 +7,7 @@
 	}
 
 	if ( mw.config.get('wgIsMainPage') ) {
-		$('#p-search').html('').toggle(true);
+		// $('#p-search').html('').toggle(true);
 		$('#catlinks').toggle( false );
 		$('#footer-info').toggle( false );
 	}
