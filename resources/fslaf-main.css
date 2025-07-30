@@ -1,3 +1,8 @@
+/* https://www.familysearch.org/en/brand */
+:root {
+  --fs-body-color: #333; /* #786e63; */
+}
+
 body {
 	margin: auto !important;
 	height: auto !important;
@@ -60,7 +65,7 @@ div#mw-panel div.portal div.body ul li a {
 }
 
 div#mw-panel div.portal h3 {
-    font-family: Helvetica, Verdana, san-serif;
+    /* font-family: Helvetica, Verdana, san-serif; */
     font-size: 0.875em;
 }
 
@@ -374,7 +379,22 @@ a.new:visited, #p-personal a.new:visited {
 
 @font-face {
 	font-family: "Museo";
-	src: url('/wiki/public_html/Museo_Slab_500.otf') format("opentype");
+	src: url('./fonts/Museo_Slab_500.otf') format("opentype");
+}
+
+@font-face {
+	font-family: "NotoSans-Regular";
+	src: url('./fonts/NotoSans-Regular.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: "NotoSans-Light";
+	src: url('./fonts/NotoSans-Light.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: "NotoSans-Bold";
+	src: url('./fonts/NotoSans-Bold.ttf') format("truetype");
 }
 
 @font-face {
@@ -389,22 +409,23 @@ a.new:visited, #p-personal a.new:visited {
 
 html, body {
 	/* font-family: Helvetica, Verdana, sans-serif; */
-	font-family: Verdana, Ayuthaya, HanaMinBFont, sans-serif;
+	font-family: NotoSans-Regular, Verdana, Ayuthaya, HanaMinBFont, sans-serif;
 }
 
 .mw-body p, .mw-body-content p, p {
 	/*font-family: 'Proxima Nova Light', Verdana, sans-serif;  */
-	font-family: Verdana, sans-serif; 
+	font-family: NotoSans-Regular, Verdana, sans-serif !important;
+	color: var(--fs-body-color );
 }
 
 /** important to override Vector */
 
 h1, h2 {
-	font-family: Museo, Helvetica, Verdana, serif!important;
+	font-family: Museo, Helvetica, Verdana, serif !important;
 }
 
 h3, h4, h5, h6 {
-	font-family: Helvetica, Verdana, serif !important;
+	font-family: NotoSans-Bold, Helvetica, Verdana, serif !important;
 }
 
 pre, code, tt, kbd, samp, .mw-code {
@@ -431,7 +452,7 @@ pre, code, tt, kbd, samp, .mw-code {
 
 html, body {
 	line-height: 1.6rem;
-	color: #333;
+	color: var(--fs-body-color );
 }
 
 /** The page title (h1) and any h2 */
@@ -503,7 +524,7 @@ a {
 	background-color: #f5f4f1;
 	border-radius: 4px;
 	border: 1px solid #beb8a7;
-	color: #333;
+	color: var(--fs-body-color );
 	cursor: pointer;
 	display: inline-block;
 	font-size: 1rem;
@@ -532,7 +553,7 @@ a {
 .fs-button--small:hover {
 	text-decoration: none;
 	background-color: #fbfaf9;
-	color: #333;
+	color: var(--fs-body-color );
 }
 
 .fs-button:active {
