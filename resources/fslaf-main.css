@@ -60,7 +60,7 @@ label {
     color: #252525;
 }
 
-div#mw-panel div.portal div.body ul li a {
+div#mw-panel div.portal div. ul li a {
     color: #0060d7;
 }
 
@@ -371,7 +371,7 @@ a.new:visited, #p-personal a.new:visited {
 
 @media print {
 	form, input {
-		display: none!important;
+		display: none !important;
 	}
 }
 
@@ -409,7 +409,7 @@ a.new:visited, #p-personal a.new:visited {
 
 html, body {
 	/* font-family: Helvetica, Verdana, sans-serif; */
-	font-family: NotoSans-Regular, Verdana, Ayuthaya, HanaMinBFont, sans-serif;
+	font-family: NotoSans-Regular, Verdana, Ayuthaya, HanaMinBFont, sans-serif !important;
 }
 
 .mw-body p, .mw-body-content p, p {
@@ -470,7 +470,7 @@ h3, h4, h5, h6 {
 /** we have to use the class selector so that Vector doesn't override us */
 
 .mw-body-content h1 {
-	font-size: 1.6rem!important;
+	font-size: 1.6rem !important;
 	color: #000;
 	margin-top: 0.125em; /* whitespace to sitenotice */
 }
@@ -503,7 +503,7 @@ h3, h4, h5, h6 {
 }
 
 #mw-head .vectorMenu h3 {
-	background-image: unset!important;
+	background-image: unset !important;
 }
 
 a {
