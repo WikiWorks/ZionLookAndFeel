@@ -414,7 +414,7 @@ html, body {
 
 .mw-body p, .mw-body-content p, p {
 	/*font-family: 'Proxima Nova Light', Verdana, sans-serif;  */
-	font-family: NotoSans-Regular, Verdana, sans-serif !important;
+	font-family: NotoSans-Regular, Verdana, Ayuthaya, HanaMinBFont, sans-serif !important;
 	color: var(--fs-body-color );
 }
 
