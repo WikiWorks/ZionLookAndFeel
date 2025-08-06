@@ -9,6 +9,16 @@ body {
 	background-color: #fff !important;
 }
 
+/* 
+ * this will increase only the font-size of the body, to increase all other sizes
+ * *decrease* @font-size-browser (skins/Vector/resources/common/variables.less) to 
+ * obtain a default font size of 16px (instead of 14, depending on the browser settings)
+ * and then override here all the rules where  @font-size-base and @font-size-browser are used
+ */
+.vector-body {
+	font-size: 1em !important;
+}
+
 #wrapper.inj-wrapper {
 	min-height: auto !important;
 }
