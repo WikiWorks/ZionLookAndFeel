@@ -30,13 +30,13 @@
 		},
 		"ext.zionlookandfeel.scripts": {
 			"scripts": [
-				"resources/fslaf-collapseAndToggle.js",
-				"resources/fslaf-geoHandling.js",
-				"resources/fslaf-helpMenu.js",
-				"resources/fslaf-modifySidebar.js",
-				"resources/fslaf-other.js",
-				"resources/fslaf-other-old.js",
-				"resources/fslaf-showMapMenus.js"
+				"resources/js/fslaf-collapseAndToggle.js",
+				"resources/js/fslaf-geoHandling.js",
+				"resources/js/fslaf-helpMenu.js",
+				"resources/js/fslaf-modifySidebar.js",
+				"resources/js/fslaf-other.js",
+				"resources/js/fslaf-other-old.js",
+				"resources/js/fslaf-showMapMenus.js"
 			],
 			"dependencies": [
 				"ext.zionlookandfeel.injected"
@@ -48,10 +48,11 @@
 		},
 		"ext.zionlookandfeel.styles": {
 			"styles": [
-				"resources/fslaf-FsHeader.css",
-				"resources/fslaf-main.css",
-				"resources/fslaf-mainPage.css",
-				"resources/fslaf-oldStuff.css"
+				"resources/less/fslaf-main.less",
+				"resources/css/fslaf-FsHeader.css",
+				"resources/css/fslaf-main.css",
+				"resources/css/fslaf-mainPage.css",
+				"resources/css/fslaf-oldStuff.css"
 			],
 			"targets": [
 				"desktop",
