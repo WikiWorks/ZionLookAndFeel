@@ -11,7 +11,7 @@
 		"MediaWiki": ">= 1.39.0"
 	},
 	"MessagesDirs": {
-		"FsLookAndFeel": [
+		"ZionLookAndFeel": [
 			"i18n"
 		]
 	},
@@ -90,7 +90,7 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteExtPath": "FsLookAndFeel"
+		"remoteExtPath": "ZionLookAndFeel"
 	},
 	"Hooks": {
 		"BeforePageDisplay": "ZionLookAndFeelHooks::addModules"
