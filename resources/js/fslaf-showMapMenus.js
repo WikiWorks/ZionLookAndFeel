@@ -1,5 +1,4 @@
 ( function() {
-
     // console.log('loading menus data');
     const regr = /GR$/;
     var isGR = regr.test(document.location.pathname);
