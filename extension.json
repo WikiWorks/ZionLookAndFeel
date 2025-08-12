@@ -21,7 +21,7 @@
 	"ResourceModules": {
 		"ext.zionlookandfeel.injected": {
 			"scripts": [
-				"resources/fslaf-injectedHeader.js"
+				"resources/js/fslaf-injectedHeader.js"
 			],
 			"targets": [
 				"desktop",
@@ -61,10 +61,10 @@
 		},
 		"ext.zionlookandfeel.mainpage": {
 			"scripts": [
-				"resources/fslaf-showMapMenus.js"
+				"resources/js/fslaf-showMapMenus.js"
 			],
 			"styles": [
-				"resources/fslaf-mainPage.css"
+				"resources/css/fslaf-mainPage.css"
 			],
 			"dependencies": [
 			],
@@ -75,10 +75,10 @@
 		},
 		"ext.zionlookandfeel.minerva": {
 			"scripts": [
-				"resources/fslaf-minerva.js"
+				"resources/js/fslaf-minerva.js"
 			],
 			"styles": [
-				"resources/fslaf-minerva.css"
+				"resources/css/fslaf-minerva.css"
 			],
 			"dependencies": [
 			],

@@ -16,7 +16,7 @@ body {
  * and then override here all the rules where  @font-size-base and @font-size-browser are used
  */
 .vector-body {
-	font-size: 1em !important;
+	/* font-size: 1em !important; */
 }
 
 #wrapper.inj-wrapper {
@@ -389,22 +389,22 @@ a.new:visited, #p-personal a.new:visited {
 
 @font-face {
 	font-family: "Museo";
-	src: url('./fonts/Museo_Slab_500.otf') format("opentype");
+	src: url('../fonts/Museo_Slab_500.otf') format("opentype");
 }
 
 @font-face {
 	font-family: "NotoSans-Regular";
-	src: url('./fonts/NotoSans-Regular.ttf') format("truetype");
+	src: url('../fonts/NotoSans-Regular.ttf') format("truetype");
 }
 
 @font-face {
 	font-family: "NotoSans-Light";
-	src: url('./fonts/NotoSans-Light.ttf') format("truetype");
+	src: url('../fonts/NotoSans-Light.ttf') format("truetype");
 }
 
 @font-face {
 	font-family: "NotoSans-Bold";
-	src: url('./fonts/NotoSans-Bold.ttf') format("truetype");
+	src: url('../fonts/NotoSans-Bold.ttf') format("truetype");
 }
 
 @font-face {
