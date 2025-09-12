@@ -6,6 +6,6 @@
 
 	var injHF = document.createElement('script');
 	injHF.async = true;
-	injHF.src = 'https://' + ( !localHost ? window.location.host : 'familysearch.org' ) + '/hf/hf.js';
+	injHF.src = 'https://' + ( !localHost ? window.location.host : 'familysearch.org' ) + '/hf/hf.js' + '?signOutReturnUrl=/en/wiki/index.php/Special:UserLogout';
 	document.getElementsByTagName('head')[ 0 ].appendChild( injHF );
 } )();
