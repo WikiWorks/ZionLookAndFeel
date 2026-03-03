@@ -1,3 +1,6 @@
+// initialize search bar
+mw.loader.load( 'skins.vector.search' );
+
 ( function() {
 	if (mw.config.get('wgUserName') === null) {
 		$('.vector-user-links').toggle( false );
