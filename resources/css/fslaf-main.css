@@ -685,3 +685,69 @@ a {
 	display: inline-block;
 }
 
+/******************** search bar **********************/
+
+/* Desktop wide */
+@media (min-width: 1200px) {
+    .mw-header .vector-search-box:not(.vector-search-box-auto-expand-width),
+    html:not(.client-js) .mw-header .vector-search-box {
+        padding-left: 36px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1000px) {
+    .mw-header .vector-search-box {
+        margin-right: 12px;
+    }
+}
+
+/* Mobile / Tablet toggle behavior */
+@media (max-width: 999px) {
+    .mw-header.vector-header-search-toggled #mw-sidebar-button,
+    .mw-header.vector-header-search-toggled .mw-logo,
+    .mw-header.vector-header-search-toggled .search-toggle {
+        display: none;
+    }
+
+    .mw-header.vector-header-search-toggled .vector-search-box-collapses > div {
+        display: block;
+    }
+
+    .mw-header.vector-header-search-toggled .vector-search-box {
+        position: relative;
+        margin-left: 8px;
+        margin-right: 12px;
+    }
+
+    .mw-header.vector-header-search-toggled .vector-search-box > div {
+        max-width: none;
+    }
+
+    .mw-header.vector-header-search-toggled .cdx-search-input__input-wrapper {
+        position: static;
+    }
+
+    .mw-header.vector-header-search-toggled
+    .cdx-typeahead-search--expanded
+    .cdx-search-input__end-button {
+        border-bottom-right-radius: 0;
+    }
+}
+
+.client-js .vector-search-box-vue .cdx-typeahead-search .cdx-search-input__end-button {
+	opacity: 1 !important;
+	transition: none !important;
+}
+
+.cdx-typeahead-search--show-thumbnail.cdx-typeahead-search--auto-expand-width.cdx-typeahead-search--active .cdx-text-input__start-icon {
+	left: 9px !important;
+}
+
+.cdx-typeahead-search--show-thumbnail:not(.cdx-typeahead-search--auto-expand-width) .cdx-text-input__input, .cdx-typeahead-search--show-thumbnail.cdx-typeahead-search--auto-expand-width.cdx-typeahead-search--active .cdx-text-input__input {
+	padding-left: 36px !important;
+}
+
+.cdx-typeahead-search--show-thumbnail.cdx-typeahead-search--auto-expand-width.cdx-typeahead-search--active {
+	margin-left: 24px !important;
+}
