@@ -18,3 +18,7 @@
      float: right;
 }
 
+/* fix search bar */
+.mw-overlays-container .overlay-header {
+    margin-top: 62px;
+}
