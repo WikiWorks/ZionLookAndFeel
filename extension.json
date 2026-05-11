@@ -36,7 +36,9 @@
 				"resources/js/fslaf-modifySidebar.js",
 				"resources/js/fslaf-other.js",
 				"resources/js/fslaf-other-old.js",
-				"resources/js/fslaf-showMapMenus.js"
+				"resources/js/fslaf-showMapMenus.js",
+				"resources/js/fsJsonMenu.js",
+				"resources/js/fsReMapMenu.js"
 			],
 			"dependencies": [
 				"ext.zionlookandfeel.injected"
