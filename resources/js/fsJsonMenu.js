@@ -2138,4 +2138,43 @@ window.fsJsonMenu = {
 			},
 		],
 	},
+
+	// ==================== ALL LINKS ====================
+	full_map: {
+		class: 'countrymenu',
+		title: 'List of all Localities',
+		list: [
+			['Anguilla_Genealogy', 'Anguilla'],
+			['Antigua_and_Barbuda_Genealogy', 'Antigua & Barbuda'],
+			['Aruba_Genealogy', 'Aruba'],
+			['Bahamas_Genealogy', 'Bahamas'],
+			['Barbados_Genealogy', 'Barbados'],
+			['Belize_Genealogy', 'Belize'],
+			['Bermuda_Genealogy', 'Bermuda'],
+			['Bonaire_Genealogy', 'Bonaire'],
+			['British_Virgin_Islands_Genealogy', 'British Virgin Islands'],
+			{
+				canada: {
+					class: 'statemenu',
+					title: 'Canada Provinces',
+					list: [
+						['Canada_Genealogy', 'Canada'],
+						['Alberta,_Canada_Genealogy', 'Alberta'],
+						['British_Columbia,_Canada_Genealogy', 'British Columbia'],
+						['Manitoba,_Canada_Genealogy', 'Manitoba'],
+						['New_Brunswick,_Canada_Genealogy', 'New Brunswick'],
+						['Newfoundland_and_Labrador,_Canada_Genealogy', 'Newfoundland & Labrador'],
+						['Northwest_Territories,_Canada_Genealogy', 'Northwest Territories'],
+						['Nova_Scotia,_Canada_Genealogy', 'Nova Scotia'],
+						['Nunavut,_Canada_Genealogy', 'Nunavut'],
+						['Ontario,_Canada_Genealogy', 'Ontario'],
+						['Prince_Edward_Island,_Canada_Genealogy', 'Prince Edward Island'],
+						['Quebec,_Canada_Genealogy', 'Quebec'],
+						['Saskatchewan,_Canada_Genealogy', 'Saskatchewan'],
+						['Yukon,_Canada_Genealogy', 'Yukon'],
+					],
+				},
+			},
+		],
+	},
 };
