@@ -317,7 +317,7 @@ class SidePanelMenu {
 const sidePanelMenu = new SidePanelMenu({ panelWidth: 280 });
 
 $(document).ready(() => {
-	document.querySelectorAll('.anchor-btn').forEach((button) => {
+	document.querySelectorAll('.anchor-btn, .anchor-btn-blue').forEach((button) => {
 		button.addEventListener('click', (e) => {
 			e.stopPropagation();
 			const menuKey = button.getAttribute('data-key');
@@ -337,7 +337,7 @@ $(document).on('click', (e) => {
 	const $target = $(e.target);
 
 	const isOutsidePanel = !$panel.is($target) && !$panel.has($target).length;
-	const isNotOnButton = !$target.closest('.anchor-btn').length;
+	const isNotOnButton = !$target.closest('.anchor-btn, .anchor-btn-blue').length;
 
 	if (isOutsidePanel && isNotOnButton) {
 		sidePanelMenu.hide();
