@@ -387,10 +387,8 @@ a.new:visited, #p-personal a.new:visited {
 
 /**** Typography *************************************************************/
 
-@font-face {
-	font-family: "Museo";
-	src: url('../fonts/Museo_Slab_500.otf') format("opentype");
-}
+/* Load the Noto fonts (Sans & Serif) */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@400;700&display=swap');
 
 @font-face {
 	font-family: "NotoSans-Regular";
@@ -430,12 +428,16 @@ html, body {
 
 /** important to override Vector */
 
-h1, h2 {
-	font-family: Museo, Helvetica, Verdana, serif !important;
+h1, h5, h6 {
+	font-family: NotoSans-Regular, Helvetica, Verdana, serif !important;
 }
 
-h3, h4, h5, h6 {
+h2, h3 {
 	font-family: NotoSans-Bold, Helvetica, Verdana, serif !important;
+}
+
+h4 {
+	font-family: NotoSerif-Bold, Helvetica, Verdana, serif !important;
 }
 
 pre, code, tt, kbd, samp, .mw-code {
