@@ -428,16 +428,24 @@ html, body {
 
 /** important to override Vector */
 
-h1, h5, h6 {
-	font-family: NotoSans-Regular, Helvetica, Verdana, serif !important;
+h1 {
+	font-family: 'Noto Sans', Helvetica, Verdana, serif !important;
+	font-weight: bold !important;
 }
 
 h2, h3 {
-	font-family: NotoSans-Bold, Helvetica, Verdana, serif !important;
+	font-family: 'Noto Sans', Helvetica, Verdana, serif !important;
+	font-weight: bold !important;
 }
 
 h4 {
-	font-family: NotoSerif-Bold, Helvetica, Verdana, serif !important;
+	font-family: 'Noto Serif', Helvetica, Verdana, serif !important;
+	font-weight: bold !important;
+}
+
+h5, h6 {
+	font-family: 'Noto Sans', Helvetica, Verdana, serif !important;
+	font-weight: normal !important;
 }
 
 pre, code, tt, kbd, samp, .mw-code {
