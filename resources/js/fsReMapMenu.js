@@ -113,6 +113,7 @@ class SidePanelMenu {
 			'south_america',
 			'europe',
 			'africa',
+			'full_map',
 		];
 
 		return leftSideMenus.includes(menuName) ? 'left' : 'right';
