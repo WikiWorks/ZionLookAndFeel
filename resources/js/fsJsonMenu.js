@@ -4202,6 +4202,7 @@ window.fsJsonMenu = {
 						['Zulia,_Venezuela_Genealogy', 'Zulia'],
 					],
 				},
+			},
 			['Vietnam_Genealogy', 'Vietnam'],
 			['Wake_Island_Genealogy', 'Wake Island'],
 			{
@@ -4229,6 +4230,7 @@ window.fsJsonMenu = {
 			['Wallis_and_Futuna_Genealogy', 'Wallis & Futuna'],
 			['Yemen_Genealogy', 'Yemen'],
 			['Zambia_Genealogy', 'Zambia'],
-			['Zimbabwe_Genealogy', 'Zimbabwe'],],
+			['Zimbabwe_Genealogy', 'Zimbabwe'],
+		],
 	},
 };
