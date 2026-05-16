@@ -95,7 +95,7 @@ class SidePanelMenu {
 
 	createAndShowPanel(menuData) {
 		const $panel = this.createPanel(menuData);
-		$('.container').append($panel);
+		$('.map-container').append($panel);
 
 		this.updatePanelPosition($panel);
 		this.updateLayoutSide();
