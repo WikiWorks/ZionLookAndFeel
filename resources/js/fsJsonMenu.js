@@ -134,7 +134,7 @@ window.fsJsonMenu = {
 	// ==================== ASIA ====================
 	asia: {
 		class: 'countrymenu',
-		title: 'Asia',
+		title: 'Asia/Middle East',
 		list: [
 			['Afghanistan_Genealogy', 'Afghanistan'],
 			['Bahrain_Genealogy', 'Bahrain'],
