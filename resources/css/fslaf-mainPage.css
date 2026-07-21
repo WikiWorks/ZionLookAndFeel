@@ -236,3 +236,20 @@ form input {
 	/* border: 1px solid !important; */
 	border-color: darkgrey !important;
 }
+
+/* non-collapsible search-box */
+.vector-search-box,
+.vector-search-box-collapses {
+        display: flex !important;
+        flex: 1 1 auto;
+        max-width: none !important;
+}
+
+.vector-search-box-collapses > div {
+        display: block !important;
+}
+
+.search-toggle {
+        display: none !important;
+}
+
