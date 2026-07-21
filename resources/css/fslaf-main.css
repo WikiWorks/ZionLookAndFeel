@@ -761,3 +761,7 @@ a {
 .cdx-typeahead-search--show-thumbnail.cdx-typeahead-search--auto-expand-width.cdx-typeahead-search--active {
 	margin-left: 24px !important;
 }
+
+.searchboxContainer .vector-search-box, .searchboxContainer .vector-search-box-collapses {
+ display: inline-block !important;
+}
